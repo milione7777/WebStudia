@@ -1,6 +1,12 @@
 .footer {
     background: #2f303a;
-    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+  }
+
+  .footer-position {
+    display: flex;
   }
   
   
@@ -97,19 +103,10 @@
     border-radius: 4px;
     background: #2f303a;
     color: #ffffff4d;
+    border: 1px solid rgba(255, 255, 255, 0.30);
   }
   .input-footer {
     display: block;
-  }
-  
-  input {
-    padding-left: 16px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.48px;
   }
   
   .label-input-footer {
